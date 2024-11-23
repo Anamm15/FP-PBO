@@ -1,6 +1,7 @@
+using System;
 using UnityEngine;
 
-public abstract class Character : MonoBehaviour, IAttackable {
+public abstract class Character : MonoBehaviour {
     private string _name;
     private int _healthPoint;
     private int _armor;
@@ -10,11 +11,17 @@ public abstract class Character : MonoBehaviour, IAttackable {
     protected Animator animator;
     public static int totalCharacter = 0;
 
+    public virtual void Start () {}
+
     public virtual void Update () {}
 
     public string Name {
-        get => _name;
-        set => if (!string.IsNullOrEmpty(value)) _name = value;
+        get { return _name; }
+        set { 
+            if (string.IsNullOrEmpty(value)) _name = "Unknown";
+            else _name = value;
+         }
+        
     }
 
     public int HealthPoint {

@@ -2,8 +2,8 @@ using UnityEngine;
 public class Player : Character {
 
 
-    public void Start() {
-        animator = 
+    public override void Start() {
+        animator = GetComponent<Animator>();
     }
 
     public override void Update() {
@@ -11,8 +11,8 @@ public class Player : Character {
     }
 
     public void Move() {
-        float moveX = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-        float moveY = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+        float moveX = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
+        float moveY = Input.GetAxis("Vertical") * MoveSpeed * Time.deltaTime;
 
         transform.Translate(new Vector3(moveX, moveY, 0), Space.World); 
 
@@ -22,29 +22,29 @@ public class Player : Character {
             transform.rotation = Quaternion.Euler(0, 180, 0); 
     }
 
-    private void HandleInput {
+    private void HandleInput() {
         if (Input.GetMouseButtonDown(0))
         {
-            m_animator.SetTrigger("Attack1");
+            animator.SetTrigger("Attack1");
             Attack();
         }
         else if (Input.GetMouseButtonDown(1))
         {
-            m_animator.SetTrigger("Attack2");
+            animator.SetTrigger("Attack2");
             Attack();
         }
         else if (Input.GetKeyDown(KeyCode.Space))
         {
-            m_animator.SetTrigger("Attack3");
+            animator.SetTrigger("Attack3");
             Attack();
         }
         else if (Mathf.Abs(Input.GetAxis("Horizontal")) > Mathf.Epsilon || Mathf.Abs(Input.GetAxis("Vertical")) > Mathf.Epsilon)
         {
-            m_animator.SetInteger("AnimState", 1);
+            animator.SetInteger("AnimState", 1);
         }
         else
         {
-            m_animator.SetInteger("AnimState", 0);
+            animator.SetInteger("AnimState", 0);
         }
     }
 

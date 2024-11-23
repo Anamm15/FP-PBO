@@ -1,3 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 public class Enemy : Character 
 {
     private Transform player;
@@ -6,6 +10,10 @@ public class Enemy : Character
     public float gridSize = 1f;
     public float pathUpdateInterval = 1f;
     private Coroutine pathUpdateCoroutine;
+    private Vector2 lastPlayerPosition;
+    private float lastAttackTime;
+    public float attackRange = 1f;
+    public float attackCooldown = 1f;
 
     public override void Start() {
         base.Start();
@@ -46,7 +54,7 @@ public class Enemy : Character
         }
     }
 
-    public void FindPath() {
+    public IEnumerator FindPath() {
         path.Clear();
 
         Vector2 startPos = transform.position;
@@ -63,8 +71,8 @@ public class Enemy : Character
         if (path.Count > 0)
         {
             Vector2 target = path[0];
-            transform.position = Vector2.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
-            m_animator.SetInteger("AnimState", 1)        
+            transform.position = Vector2.MoveTowards(transform.position, target, MoveSpeed * Time.deltaTime);
+            animator.SetInteger("AnimState", 1);    
             if (target.x < transform.position.x)
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -77,7 +85,7 @@ public class Enemy : Character
             {
                 if (Time.time - lastAttackTime >= attackCooldown)
                 {
-                    AttackPlayer();
+                    Attack();
                     lastAttackTime = Time.time;
                 }
             }
