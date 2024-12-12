@@ -1,0 +1,1688 @@
+fileFormatVersion: 2
+guid: 42410c9d8bb5cac4f9812a2faf5dba25
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Werebear_Frame_0
+    originalName: 
+    pivot: {x: 0.4210527, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 221
+      y: 122
+      width: 19
+      height: 20
+    spriteID: 0e1bda38f20ca8644a56b5795a9ee434
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 221, y: 122}
+  - name: Werebear_Frame_14
+    originalName: 
+    pivot: {x: 0.4210527, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 65
+      width: 19
+      height: 20
+    spriteID: ea8d8e2e7dcf5c24ab593adbfd7262ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 65}
+  - name: Werebear_Frame_15
+    originalName: 
+    pivot: {x: 0.4210527, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 122
+      width: 19
+      height: 21
+    spriteID: a07f21489c1ac484888591968707da45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 122}
+  - name: Werebear_Frame_16
+    originalName: 
+    pivot: {x: 0.38095245, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 93
+      width: 21
+      height: 21
+    spriteID: 5110e018ee7e91c4ea7a0c313b68b15b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 93}
+  - name: Werebear_Frame_17
+    originalName: 
+    pivot: {x: 0.33333328, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 93
+      width: 21
+      height: 21
+    spriteID: e37874c31f4682242a4a073502fd4670
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 93}
+  - name: Werebear_Frame_18
+    originalName: 
+    pivot: {x: 0.31818178, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 93
+      width: 22
+      height: 21
+    spriteID: a2ab0de5d19067545a5b88cbe08538f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 93}
+  - name: Werebear_Frame_19
+    originalName: 
+    pivot: {x: 0.17948717, y: -1.6666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 31
+      width: 39
+      height: 24
+    spriteID: b1a39841b5147854daba496e8b74cc30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 31}
+  - name: Werebear_Frame_20
+    originalName: 
+    pivot: {x: 0.18421051, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 4
+      width: 38
+      height: 19
+    spriteID: bd4a58533163a194799a448274ec8fd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 4}
+  - name: Werebear_Frame_21
+    originalName: 
+    pivot: {x: 0.31818178, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 186
+      y: 4
+      width: 22
+      height: 19
+    spriteID: aa13a9c1d5659e848ba7defa9fdac8eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 186, y: 4}
+  - name: Werebear_Frame_22
+    originalName: 
+    pivot: {x: 0.4210527, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 65
+      width: 19
+      height: 20
+    spriteID: 1b0a3d6ac94444640b54f2485be7ea88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 65}
+  - name: Werebear_Frame_23
+    originalName: 
+    pivot: {x: 0.4210527, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 186
+      y: 65
+      width: 19
+      height: 20
+    spriteID: 9bb23ed2136555042952dce5c61878ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 186, y: 65}
+  - name: Werebear_Frame_24
+    originalName: 
+    pivot: {x: 0.4210527, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 59
+      y: 122
+      width: 19
+      height: 21
+    spriteID: 9c41d8b9ea677bd428836fc9f466348a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 59, y: 122}
+  - name: Werebear_Frame_25
+    originalName: 
+    pivot: {x: 0.36363643, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 93
+      width: 22
+      height: 21
+    spriteID: e026ba501ef7d5d4195ed9c123c2598f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 93}
+  - name: Werebear_Frame_26
+    originalName: 
+    pivot: {x: 0.33333337, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 93
+      width: 24
+      height: 21
+    spriteID: e12701d7a5a68ad41bab6676c7af8f37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 93}
+  - name: Werebear_Frame_27
+    originalName: 
+    pivot: {x: 0.21052635, y: -1.56}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 57
+      y: 31
+      width: 38
+      height: 25
+    spriteID: 1ec203a148f126848abe550c93046b08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 57, y: 31}
+  - name: Werebear_Frame_28
+    originalName: 
+    pivot: {x: 0.22222225, y: -1.9499999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 65
+      width: 36
+      height: 20
+    spriteID: 092aef64cdd610e499d4cd7d18d39a22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 65}
+  - name: Werebear_Frame_29
+    originalName: 
+    pivot: {x: 0.42857143, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 93
+      width: 21
+      height: 20
+    spriteID: e465130def82ea649b22107ea3ec0e1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 93}
+  - name: Werebear_Frame_30
+    originalName: 
+    pivot: {x: 0.42857143, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 183
+      y: 93
+      width: 21
+      height: 20
+    spriteID: 783fc4199367719419a3cd65cff8c724
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 183, y: 93}
+  - name: Werebear_Frame_31
+    originalName: 
+    pivot: {x: 0.36842102, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 151
+      width: 19
+      height: 19
+    spriteID: fc234f413cbbda24eb1a39d0b15fa90e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 151}
+  - name: Werebear_Frame_32
+    originalName: 
+    pivot: {x: 0.19444442, y: -1.5217391}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 31
+      width: 36
+      height: 23
+    spriteID: 7d49e085d4db0c04ebb235110430b8f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 31}
+  - name: Werebear_Frame_33
+    originalName: 
+    pivot: {x: 0.19444442, y: -1.5217391}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 31
+      width: 36
+      height: 23
+    spriteID: 940338641d0a114449895a09922695e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 31}
+  - name: Werebear_Frame_34
+    originalName: 
+    pivot: {x: 0.36842102, y: -2.0526314}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 151
+      width: 19
+      height: 19
+    spriteID: 568787e76f8da1242b6ffef6a48838d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 151}
+  - name: Werebear_Frame_35
+    originalName: 
+    pivot: {x: 0.4210527, y: -2.222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 178
+      width: 19
+      height: 18
+    spriteID: a7ab9e8345da07a468d4697256c2e355
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 178}
+  - name: Werebear_Frame_36
+    originalName: 
+    pivot: {x: 0.4210527, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 65
+      width: 19
+      height: 20
+    spriteID: f62d0b854ecd75842bd9aae86bdcc7d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 65}
+  - name: Werebear_Frame_37
+    originalName: 
+    pivot: {x: 0.4210527, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 122
+      width: 19
+      height: 21
+    spriteID: bfd6ddf98c7351f4b935f5a60e9e0119
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 122}
+  - name: Werebear_Frame_38
+    originalName: 
+    pivot: {x: 0.38888884, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 206
+      width: 18
+      height: 21
+    spriteID: 272d0592e5d1dd247bbf9e7051922f21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 206}
+  - name: Werebear_Frame_39
+    originalName: 
+    pivot: {x: 0.36842102, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 122
+      width: 19
+      height: 21
+    spriteID: 5a5493cb92e44e54197e163e7ec94322
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 122}
+  - name: Werebear_Frame_40
+    originalName: 
+    pivot: {x: 0.36842102, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 122
+      width: 19
+      height: 21
+    spriteID: eb7808638bd98144aa22151cd05e1dcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 122}
+  - name: Werebear_Frame_41
+    originalName: 
+    pivot: {x: 0.3111111, y: -1.5384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 31
+      width: 45
+      height: 26
+    spriteID: b0d2090e9c67c3f4abab3d5723326c44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 31}
+  - name: Werebear_Frame_42
+    originalName: 
+    pivot: {x: 0.3965517, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 4
+      width: 58
+      height: 19
+    spriteID: 6fc53470862271a46ab313437f8bc8af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 4}
+  - name: Werebear_Frame_43
+    originalName: 
+    pivot: {x: 0.4032258, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 62
+      height: 19
+    spriteID: f5c2dee8c711d484cabdc8e72f9a272e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Werebear_Frame_44
+    originalName: 
+    pivot: {x: 0.31818178, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 4
+      width: 22
+      height: 19
+    spriteID: c94fc675ad9f73547908686be80200e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 216, y: 4}
+  - name: Werebear_Frame_45
+    originalName: 
+    pivot: {x: 0.40000007, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 151
+      width: 20
+      height: 19
+    spriteID: 3a4055fbf09497c4883b8bae096ce1aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 151}
+  - name: Werebear_Frame_46
+    originalName: 
+    pivot: {x: 0.40000007, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 151
+      width: 20
+      height: 19
+    spriteID: afd1bb1cd4071754ba2cf80740f86970
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 151}
+  - name: Werebear_Frame_47
+    originalName: 
+    pivot: {x: 0.40000007, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 151
+      width: 20
+      height: 19
+    spriteID: c6bd645fd65cb9a41a2fd6e2e5f46fee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 151}
+  - name: Werebear_Frame_48
+    originalName: 
+    pivot: {x: 0.40000007, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 151
+      width: 20
+      height: 19
+    spriteID: 31e39914e9fea0c45be9e66a57898393
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 151}
+  - name: Werebear_Frame_49
+    originalName: 
+    pivot: {x: 0.4210527, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 178
+      width: 19
+      height: 20
+    spriteID: 159f886405e488e44bdf434b505596d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 178}
+  - name: Werebear_Frame_50
+    originalName: 
+    pivot: {x: 0.34999996, y: -2.222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 151
+      width: 20
+      height: 18
+    spriteID: a04981207999d8a46aa165f64420af18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 151}
+  - name: Werebear_Frame_51
+    originalName: 
+    pivot: {x: 0.33333328, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 178
+      width: 21
+      height: 16
+    spriteID: bbbf73e8f6534004d9ba034fe6974c6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 178}
+  - name: Werebear_Frame_52
+    originalName: 
+    pivot: {x: 0.27272728, y: -3.3333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 195
+      y: 178
+      width: 22
+      height: 12
+    spriteID: 163bd3d09fd26e241bfbc00c78779b40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 195, y: 178}
+  - name: Werebear_Frame_1
+    originalName: 
+    pivot: {x: 0.4210527, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 31
+      y: 178
+      width: 19
+      height: 20
+    spriteID: 155069c7a7ea33442b69560bdef9d961
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 31, y: 178}
+  - name: Werebear_Frame_2
+    originalName: 
+    pivot: {x: 0.4210527, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 167
+      y: 122
+      width: 19
+      height: 21
+    spriteID: 5b3a596ab380eb14fb35c1d7f82f2543
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 167, y: 122}
+  - name: Werebear_Frame_3
+    originalName: 
+    pivot: {x: 0.4210527, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 122
+      width: 19
+      height: 21
+    spriteID: a1211d22070452245b8df28b21c8bac4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 122}
+  - name: Werebear_Frame_4
+    originalName: 
+    pivot: {x: 0.4210527, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 178
+      width: 19
+      height: 20
+    spriteID: 9985751190aa3dc45a4a8b3effc833be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 178}
+  - name: Werebear_Frame_5
+    originalName: 
+    pivot: {x: 0.4210527, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 178
+      width: 19
+      height: 20
+    spriteID: 4fb96cf3439e70745a9ce8034d22bf2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 178}
+  - name: Werebear_Frame_6
+    originalName: 
+    pivot: {x: 0.40000007, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 65
+      width: 20
+      height: 20
+    spriteID: c904e88de50ab2e4dbd16a535909f8c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 65}
+  - name: Werebear_Frame_7
+    originalName: 
+    pivot: {x: 0.34999996, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 93
+      width: 20
+      height: 21
+    spriteID: d85d84ab460af194a9d12a4bf7901446
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 93}
+  - name: Werebear_Frame_8
+    originalName: 
+    pivot: {x: 0.34999996, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 65
+      width: 20
+      height: 20
+    spriteID: ea9f567ddc2055145848e7127f406619
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 65}
+  - name: Werebear_Frame_9
+    originalName: 
+    pivot: {x: 0.34999996, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 151
+      width: 20
+      height: 19
+    spriteID: 2d2efef9ed646b74c9ce20ea5eea5354
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 151}
+  - name: Werebear_Frame_10
+    originalName: 
+    pivot: {x: 0.36842102, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 178
+      width: 19
+      height: 20
+    spriteID: a4e24537b20c0bb40ab115a82e607161
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 178}
+  - name: Werebear_Frame_11
+    originalName: 
+    pivot: {x: 0.40000007, y: -1.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 122
+      width: 20
+      height: 21
+    spriteID: 962539c7268725c4fa5185399442b68d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 122}
+  - name: Werebear_Frame_12
+    originalName: 
+    pivot: {x: 0.40000007, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 65
+      width: 20
+      height: 20
+    spriteID: aa37738be4c4a1248983be0869bf247b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 65}
+  - name: Werebear_Frame_13
+    originalName: 
+    pivot: {x: 0.40000007, y: -2.1052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 151
+      width: 20
+      height: 19
+    spriteID: 8343cecf4bdc99448b64e9ab9e3c93de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 151}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -2055429063
+    name: Werebear
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Werebear_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 20
+      spriteId: 0e1bda38f20ca8644a56b5795a9ee434
+    - name: Werebear_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 20
+      spriteId: ea8d8e2e7dcf5c24ab593adbfd7262ff
+    - name: Werebear_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 21
+      spriteId: a07f21489c1ac484888591968707da45
+    - name: Werebear_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 21
+        height: 21
+      spriteId: 5110e018ee7e91c4ea7a0c313b68b15b
+    - name: Werebear_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 21
+        height: 21
+      spriteId: e37874c31f4682242a4a073502fd4670
+    - name: Werebear_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 22
+        height: 21
+      spriteId: a2ab0de5d19067545a5b88cbe08538f0
+    - name: Werebear_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 39
+        height: 24
+      spriteId: b1a39841b5147854daba496e8b74cc30
+    - name: Werebear_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 38
+        height: 19
+      spriteId: bd4a58533163a194799a448274ec8fd2
+    - name: Werebear_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 22
+        height: 19
+      spriteId: aa13a9c1d5659e848ba7defa9fdac8eb
+    - name: Werebear_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 20
+      spriteId: 1b0a3d6ac94444640b54f2485be7ea88
+    - name: Werebear_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 20
+      spriteId: 9bb23ed2136555042952dce5c61878ed
+    - name: Werebear_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 21
+      spriteId: 9c41d8b9ea677bd428836fc9f466348a
+    - name: Werebear_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 22
+        height: 21
+      spriteId: e026ba501ef7d5d4195ed9c123c2598f
+    - name: Werebear_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 24
+        height: 21
+      spriteId: e12701d7a5a68ad41bab6676c7af8f37
+    - name: Werebear_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 39
+        width: 38
+        height: 25
+      spriteId: 1ec203a148f126848abe550c93046b08
+    - name: Werebear_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 39
+        width: 36
+        height: 20
+      spriteId: 092aef64cdd610e499d4cd7d18d39a22
+    - name: Werebear_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 40
+        width: 21
+        height: 20
+      spriteId: e465130def82ea649b22107ea3ec0e1c
+    - name: Werebear_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 40
+        width: 21
+        height: 20
+      spriteId: 783fc4199367719419a3cd65cff8c724
+    - name: Werebear_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 19
+        height: 19
+      spriteId: fc234f413cbbda24eb1a39d0b15fa90e
+    - name: Werebear_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 35
+        width: 36
+        height: 23
+      spriteId: 7d49e085d4db0c04ebb235110430b8f2
+    - name: Werebear_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 35
+        width: 36
+        height: 23
+      spriteId: 940338641d0a114449895a09922695e0
+    - name: Werebear_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 39
+        width: 19
+        height: 19
+      spriteId: 568787e76f8da1242b6ffef6a48838d0
+    - name: Werebear_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 18
+      spriteId: a7ab9e8345da07a468d4697256c2e355
+    - name: Werebear_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 20
+      spriteId: f62d0b854ecd75842bd9aae86bdcc7d7
+    - name: Werebear_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 21
+      spriteId: bfd6ddf98c7351f4b935f5a60e9e0119
+    - name: Werebear_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 18
+        height: 21
+      spriteId: 272d0592e5d1dd247bbf9e7051922f21
+    - name: Werebear_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 19
+        height: 21
+      spriteId: 5a5493cb92e44e54197e163e7ec94322
+    - name: Werebear_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 19
+        height: 21
+      spriteId: eb7808638bd98144aa22151cd05e1dcb
+    - name: Werebear_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 40
+        width: 45
+        height: 26
+      spriteId: b0d2090e9c67c3f4abab3d5723326c44
+    - name: Werebear_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 40
+        width: 58
+        height: 19
+      spriteId: 6fc53470862271a46ab313437f8bc8af
+    - name: Werebear_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 40
+        width: 62
+        height: 19
+      spriteId: f5c2dee8c711d484cabdc8e72f9a272e
+    - name: Werebear_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 22
+        height: 19
+      spriteId: c94fc675ad9f73547908686be80200e7
+    - name: Werebear_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 20
+        height: 19
+      spriteId: 3a4055fbf09497c4883b8bae096ce1aa
+    - name: Werebear_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 20
+        height: 19
+      spriteId: afd1bb1cd4071754ba2cf80740f86970
+    - name: Werebear_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 20
+        height: 19
+      spriteId: c6bd645fd65cb9a41a2fd6e2e5f46fee
+    - name: Werebear_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 20
+        height: 19
+      spriteId: 31e39914e9fea0c45be9e66a57898393
+    - name: Werebear_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 20
+      spriteId: 159f886405e488e44bdf434b505596d5
+    - name: Werebear_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 20
+        height: 18
+      spriteId: a04981207999d8a46aa165f64420af18
+    - name: Werebear_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 21
+        height: 16
+      spriteId: bbbf73e8f6534004d9ba034fe6974c6d
+    - name: Werebear_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 44
+        y: 40
+        width: 22
+        height: 12
+      spriteId: 163bd3d09fd26e241bfbc00c78779b40
+    - name: Werebear_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 20
+      spriteId: 155069c7a7ea33442b69560bdef9d961
+    - name: Werebear_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 21
+      spriteId: 5b3a596ab380eb14fb35c1d7f82f2543
+    - name: Werebear_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 21
+      spriteId: a1211d22070452245b8df28b21c8bac4
+    - name: Werebear_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 20
+      spriteId: 9985751190aa3dc45a4a8b3effc833be
+    - name: Werebear_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 19
+        height: 20
+      spriteId: 4fb96cf3439e70745a9ce8034d22bf2e
+    - name: Werebear_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 20
+        height: 20
+      spriteId: c904e88de50ab2e4dbd16a535909f8c3
+    - name: Werebear_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 20
+        height: 21
+      spriteId: d85d84ab460af194a9d12a4bf7901446
+    - name: Werebear_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 20
+        height: 20
+      spriteId: ea9f567ddc2055145848e7127f406619
+    - name: Werebear_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 20
+        height: 19
+      spriteId: 2d2efef9ed646b74c9ce20ea5eea5354
+    - name: Werebear_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 43
+        y: 40
+        width: 19
+        height: 20
+      spriteId: a4e24537b20c0bb40ab115a82e607161
+    - name: Werebear_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 20
+        height: 21
+      spriteId: 962539c7268725c4fa5185399442b68d
+    - name: Werebear_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 20
+        height: 20
+      spriteId: aa37738be4c4a1248983be0869bf247b
+    - name: Werebear_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 40
+        width: 20
+        height: 19
+      spriteId: 8343cecf4bdc99448b64e9ab9e3c93de
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 100, y: 100}

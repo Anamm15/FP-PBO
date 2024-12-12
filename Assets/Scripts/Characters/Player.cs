@@ -1,51 +1,66 @@
 using UnityEngine;
 public class Player : Character {
-
-
+    
     public override void Start() {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public override void Update() {
-
+        Move();
+        HandleInput();
     }
 
     public void Move() {
-        float moveX = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
-        float moveY = Input.GetAxis("Vertical") * MoveSpeed * Time.deltaTime;
+        Vector2 dir = Vector2.zero;
+        if (Input.GetKey(KeyCode.A))
+        {
+            dir.x = -1;
+            transform.rotation = Quaternion.Euler(0, 180, 0);
 
-        transform.Translate(new Vector3(moveX, moveY, 0), Space.World); 
-
-        if (moveX > 0)
-            transform.rotation = Quaternion.Euler(0, 0, 0); 
-        else if (moveX < 0)
-            transform.rotation = Quaternion.Euler(0, 180, 0); 
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            dir.x = 1;
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            dir.y = 1;
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            dir.y = -1;
+        }
+        dir.Normalize();
+        animator.SetBool("walk", dir.magnitude > 0);
+        rb.velocity = MoveSpeed * dir;
     }
 
     private void HandleInput() {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.J))
         {
-            animator.SetTrigger("Attack1");
+            animator.SetTrigger("attack");
             Attack();
         }
-        else if (Input.GetMouseButtonDown(1))
-        {
-            animator.SetTrigger("Attack2");
-            Attack();
-        }
-        else if (Input.GetKeyDown(KeyCode.Space))
-        {
-            animator.SetTrigger("Attack3");
-            Attack();
-        }
-        else if (Mathf.Abs(Input.GetAxis("Horizontal")) > Mathf.Epsilon || Mathf.Abs(Input.GetAxis("Vertical")) > Mathf.Epsilon)
-        {
-            animator.SetInteger("AnimState", 1);
-        }
-        else
-        {
-            animator.SetInteger("AnimState", 0);
-        }
+        // else if (Input.GetMouseButtonDown(1))
+        // {
+        //     animator.SetTrigger("Attack2");
+        //     Attack();
+        // }
+        // else if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     animator.SetTrigger("Attack3");
+        //     Attack();
+        // }
+        // else if (Mathf.Abs(Input.GetAxis("Horizontal")) > Mathf.Epsilon || Mathf.Abs(Input.GetAxis("Vertical")) > Mathf.Epsilon)
+        // {
+        //     animator.SetInteger("AnimState", 1);
+        // }
+        // else
+        // {
+        //     animator.SetInteger("AnimState", 0);
+        // }
     }
 
     public override void Attack() {

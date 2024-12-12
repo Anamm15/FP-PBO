@@ -2,13 +2,14 @@ using System;
 using UnityEngine;
 
 public abstract class Character : MonoBehaviour {
-    private string _name;
-    private int _healthPoint;
-    private int _armor;
-    private int _rangeAttack;
-    private int _cooldown;
-    private int _moveSpeed;
+    [SerializeField] private string _name;
+    [SerializeField] private int _healthPoint;
+    [SerializeField] private int _armor;
+    [SerializeField] private int _rangeAttack;
+    [SerializeField] private int _cooldown;
+    [SerializeField] private int _moveSpeed;
     protected Animator animator;
+    protected Rigidbody2D rb;
     public static int totalCharacter = 0;
 
     public virtual void Start () {}
