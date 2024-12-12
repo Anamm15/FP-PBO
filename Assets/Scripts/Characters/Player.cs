@@ -16,13 +16,12 @@ public class Player : Character {
         if (Input.GetKey(KeyCode.A))
         {
             dir.x = -1;
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-
+            transform.localScale = new Vector3(-4.15f, 4.15f, 4.15f);
         }
         else if (Input.GetKey(KeyCode.D))
         {
             dir.x = 1;
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.localScale = new Vector3(4.15f, 4.15f, 4.15f);
         }
         if (Input.GetKey(KeyCode.W))
         {
