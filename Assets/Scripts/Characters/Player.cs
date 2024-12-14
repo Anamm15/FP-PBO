@@ -1,66 +1,80 @@
+using System.Collections;
 using UnityEngine;
+
 public class Player : Character {
-
-
     public override void Start() {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        Name = "Player";
+        HealthPoint = 1000;
+        Armor = 5;
+        AttackDamage = 30;
+        AttackCooldown = 1;
+        AttackRange = 2f;
+        MoveSpeed = 5f;
     }
 
     public override void Update() {
-
+        Move();
+        HandleInput();
     }
 
     public void Move() {
-        float moveX = Input.GetAxis("Horizontal") * MoveSpeed * Time.deltaTime;
-        float moveY = Input.GetAxis("Vertical") * MoveSpeed * Time.deltaTime;
+        Vector2 dir = Vector2.zero;
 
-        transform.Translate(new Vector3(moveX, moveY, 0), Space.World); 
+        if (Input.GetKey(KeyCode.A)) {
+            dir.x = -1;
+            transform.localScale = new Vector3(-4.15f, 4.15f, 4.15f);
+        } 
+        else if (Input.GetKey(KeyCode.D)) {
+            dir.x = 1;
+            transform.localScale = new Vector3(4.15f, 4.15f, 4.15f);
+        }
 
-        if (moveX > 0)
-            transform.rotation = Quaternion.Euler(0, 0, 0); 
-        else if (moveX < 0)
-            transform.rotation = Quaternion.Euler(0, 180, 0); 
+        if (Input.GetKey(KeyCode.W)) {
+            dir.y = 1;
+        } 
+        else if (Input.GetKey(KeyCode.S)) {
+            dir.y = -1;
+        }
+
+        dir.Normalize();
+        Walk(dir.magnitude > 0);
+        rb.velocity = MoveSpeed * dir;
     }
 
     private void HandleInput() {
-        if (Input.GetMouseButtonDown(0))
-        {
-            animator.SetTrigger("Attack1");
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.J)) {
+            animator.SetTrigger("Attack");
             Attack();
         }
-        else if (Input.GetMouseButtonDown(1))
-        {
-            animator.SetTrigger("Attack2");
-            Attack();
-        }
-        else if (Input.GetKeyDown(KeyCode.Space))
-        {
-            animator.SetTrigger("Attack3");
-            Attack();
-        }
-        else if (Mathf.Abs(Input.GetAxis("Horizontal")) > Mathf.Epsilon || Mathf.Abs(Input.GetAxis("Vertical")) > Mathf.Epsilon)
-        {
-            animator.SetInteger("AnimState", 1);
-        }
-        else
-        {
-            animator.SetInteger("AnimState", 0);
+    }
+
+    public override void TakeDamage(int damage)
+    {
+        int restDamage = damage - Armor;
+        HealthPoint -= restDamage;
+
+        if (HealthPoint <= 0) {
+            StartCoroutine(Die());
         }
     }
 
     public override void Attack() {
-
+        animator.SetTrigger("Attack");
     }
 
-    public override void Run() {
-
+    public override void Walk(bool state) {
+        animator.SetBool("Walk", state);
     }
 
     public override void Hurt() {
-
+        animator.SetTrigger("Hurt");
     }
 
-    public override void Die() {
-        
+    public override IEnumerator Die() {
+        animator.SetTrigger("Death");
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        Destroy(gameObject);
     }
 }

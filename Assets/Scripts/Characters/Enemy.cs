@@ -5,41 +5,33 @@ using UnityEngine;
 public class Enemy : Character 
 {
     private Transform player;
-    private Vector2 targetPosition;
-    private List<Vector2> path = new List<Vector2>();
+    protected List<Vector2> path = new List<Vector2>();
     public float gridSize = 1f;
     public float pathUpdateInterval = 1f;
     private Coroutine pathUpdateCoroutine;
-    private Vector2 lastPlayerPosition;
     private float lastAttackTime;
-    public float attackRange = 1f;
-    public float attackCooldown = 1f;
+    private AStarPathfinding pathfinding;
+
 
     public override void Start() {
         base.Start();
 
-        try
-        {
+        try {
             GameObject playerObject = GameObject.Find("Player"); 
             player = playerObject.transform; 
-            targetPosition = player.position; 
-            lastPlayerPosition = player.position;
-        }
-        catch (System.Exception e)
-        {
+            animator = GetComponent<Animator>();
+            rb = GetComponent<Rigidbody2D>();
+        } catch (System.Exception e) {
             throw e;
         }
 
+        pathfinding = new AStarPathfinding(gridSize);
         pathUpdateCoroutine = StartCoroutine(UpdatePathPeriodically());
     }
 
+
     public override void Update() {
         base.Update();
-
-        if (path.Count > 0)
-        {
-            MoveAlongPath();
-        }
     }
 
     private IEnumerator UpdatePathPeriodically()
@@ -55,24 +47,23 @@ public class Enemy : Character
     }
 
     public IEnumerator FindPath() {
-        path.Clear();
+    Vector2 startPos = new Vector2(Mathf.Round(transform.position.x / gridSize) * gridSize, 
+                                   Mathf.Round(transform.position.y / gridSize) * gridSize);
+    Vector2 endPos = new Vector2(Mathf.Round(player.position.x / gridSize) * gridSize, 
+                                 Mathf.Round(player.position.y / gridSize) * gridSize);
 
-        Vector2 startPos = transform.position;
-        Vector2 endPos = player.position;
+    path = pathfinding.FindPath(startPos, endPos);
+    yield return null;
+}
 
-        path.Add(startPos);
-        path.Add(endPos);
 
-        yield return null;
-    }
-
-    private void MoveAlongPath()
+    protected void MoveAlongPath(float attackRange, int attackCooldown)
     {
         if (path.Count > 0)
         {
             Vector2 target = path[0];
             transform.position = Vector2.MoveTowards(transform.position, target, MoveSpeed * Time.deltaTime);
-            animator.SetInteger("AnimState", 1);    
+            Walk(true);
             if (target.x < transform.position.x)
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -85,30 +76,44 @@ public class Enemy : Character
             {
                 if (Time.time - lastAttackTime >= attackCooldown)
                 {
+                    Walk(false);
                     Attack();
                     lastAttackTime = Time.time;
                 }
             }
             else if (Vector2.Distance(transform.position, target) < 0.1f)
             {
+                Walk(false);
                 path.RemoveAt(0);
             }
         }
     }
 
-    public override void Attack() {
+    public override void TakeDamage(int damage)
+    {
+        int restDamage = damage - Armor;
+        HealthPoint -= restDamage;
 
+        if (HealthPoint <= 0) {
+            StartCoroutine(Die());
+        }
     }
 
-    public override void Run() {
+    public override void Attack() {
+        animator.SetTrigger("Attack");
+    }
 
+    public override void Walk(bool state) {
+        animator.SetBool("Walk", state);
     }
 
     public override void Hurt() {
-
+        animator.SetTrigger("Hurt");
     }
 
-    public override void Die() {
-
+    public override IEnumerator Die() {
+        animator.SetTrigger("Death");
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        Destroy(gameObject);
     }
 }
