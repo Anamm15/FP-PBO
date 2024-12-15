@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Elite Orc-Death_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 40
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11df7dde13bc764baa872cc6add7dd8
+      internalID: 281989073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Orc-Death_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 40
+        width: 36
+        height: 28
+      alignment: 9
+      pivot: {x: 0.39386496, y: 0.4672496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a33867114d2754aa205b5f69ca5653
+      internalID: 2045472752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Orc-Death_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 40
+        width: 45
+        height: 24
+      alignment: 9
+      pivot: {x: 0.4796224, y: 0.48726368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd55d8c26bffb2c4b95938bcd26773f9
+      internalID: 1987406104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Orc-Death_8
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 40
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b1515715982ea42bcfeef553869d80
+      internalID: 1432828238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Elite Orc-Death_0: 281989073
+      Elite Orc-Death_1: 2045472752
+      Elite Orc-Death_2: 1635640994
+      Elite Orc-Death_3: -361972177
+      Elite Orc-Death_4: -1859400992
+      Elite Orc-Death_5: 1987406104
+      Elite Orc-Death_6: -951032757
+      Elite Orc-Death_7: -267056817
+      Elite Orc-Death_8: 1432828238
+      Elite Orc-Death_9: 1011278627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

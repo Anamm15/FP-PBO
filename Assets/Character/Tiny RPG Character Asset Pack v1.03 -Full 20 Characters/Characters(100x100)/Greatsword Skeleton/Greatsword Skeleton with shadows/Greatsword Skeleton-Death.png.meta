@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Death_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 40
+        width: 31
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8204609, y: 0.46526477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efbaf71e7ca23a48893937e1c7ea3c5
+      internalID: 22174457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Death_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 40
+        width: 34
+        height: 20
+      alignment: 9
+      pivot: {x: 0.8461268, y: 0.42358246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfd60c23b72f0649bbc862d69706bbf
+      internalID: 1804864056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Death_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 40
+        width: 39
+        height: 16
+      alignment: 9
+      pivot: {x: 0.7586443, y: 0.51910424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184691cee82c8014dae619641c413d78
+      internalID: -1715233341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Death_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 40
+        width: 39
+        height: 16
+      alignment: 9
+      pivot: {x: 0.7664818, y: 0.51910424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e33bfac13a1ba74cb9d1ab62ca8c757
+      internalID: -108605736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Greatsword Skeleton-Death_0: 22174457
+      Greatsword Skeleton-Death_1: 1804864056
+      Greatsword Skeleton-Death_2: -1715233341
+      Greatsword Skeleton-Death_3: -108605736
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

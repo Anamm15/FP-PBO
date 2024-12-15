@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Walk_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 40
+        width: 31
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8221973, y: 0.41141355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8461269a0ad0d49be4cecc84f97946
+      internalID: -950204597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Walk_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 40
+        width: 31
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8221972, y: 0.4335601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc534fc119183644ad6d5042bcf66eb
+      internalID: -662577962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Walk_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 40
+        width: 32
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8425803, y: 0.41141355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb672a566b21be47896245e7eccff1b
+      internalID: -181297521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Walk_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 40
+        width: 33
+        height: 21
+      alignment: 9
+      pivot: {x: 0.8321996, y: 0.40719515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0c1e0f1fd9ffb488e6988103f10f5e
+      internalID: 46970341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Walk_4
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 40
+        width: 33
+        height: 21
+      alignment: 9
+      pivot: {x: 0.8321996, y: 0.37239346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d523643c0796ce4091e62332ae38581
+      internalID: -1575658227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Walk_5
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 40
+        width: 31
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8221967, y: 0.40034017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc9512f617f4d249882a9c5bd746fe5
+      internalID: 1193159582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Walk_6
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 40
+        width: 30
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8166972, y: 0.42248675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3088f7603e53d0244971c26f8341348a
+      internalID: -1786473384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Walk_7
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 40
+        width: 31
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8300565, y: 0.40034017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d0182afec86c7458d7f69f679886f7
+      internalID: -65832288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Walk_8
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 40
+        width: 31
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8221987, y: 0.42248675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e826a4e5329094c8eeedb9aeaa213b
+      internalID: 1167739195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +308,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Greatsword Skeleton-Walk_0: -950204597
+      Greatsword Skeleton-Walk_1: -662577962
+      Greatsword Skeleton-Walk_2: -181297521
+      Greatsword Skeleton-Walk_3: 46970341
+      Greatsword Skeleton-Walk_4: -1575658227
+      Greatsword Skeleton-Walk_5: 1193159582
+      Greatsword Skeleton-Walk_6: -1786473384
+      Greatsword Skeleton-Walk_7: -65832288
+      Greatsword Skeleton-Walk_8: 1167739195
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

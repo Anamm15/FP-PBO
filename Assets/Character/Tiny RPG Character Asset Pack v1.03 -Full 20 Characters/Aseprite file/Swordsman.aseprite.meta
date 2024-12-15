@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Swordsman_Frame_0
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
+    pivot: {x: 0.4002956, y: 0.40256763}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,7 +143,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 4}
   - name: Swordsman_Frame_1
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
+    pivot: {x: 0.40172705, y: 0.40670142}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +163,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 33}
   - name: Swordsman_Frame_2
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9523809}
+    pivot: {x: 0.39681658, y: 0.39951578}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +183,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 62}
   - name: Swordsman_Frame_3
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9523809}
+    pivot: {x: 0.39681658, y: 0.3934693}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +203,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 91}
   - name: Swordsman_Frame_4
     originalName: 
-    pivot: {x: 0.33333337, y: -2.05}
+    pivot: {x: 0.41915384, y: 0.36545563}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,7 +223,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 410}
   - name: Swordsman_Frame_5
     originalName: 
-    pivot: {x: 0.33333337, y: -2.05}
+    pivot: {x: 0.40355015, y: 0.34673157}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -243,7 +243,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 438}
   - name: Swordsman_Frame_6
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
+    pivot: {x: 0.4126873, y: 0.38062832}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -263,7 +263,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 120}
   - name: Swordsman_Frame_7
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9523809}
+    pivot: {x: 0.39681658, y: 0.39346966}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -283,7 +283,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 149}
   - name: Swordsman_Frame_8
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
+    pivot: {x: 0.39681658, y: 0.39876667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -303,7 +303,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 178}
   - name: Swordsman_Frame_9
     originalName: 
-    pivot: {x: 0.33333337, y: -1.8571428}
+    pivot: {x: 0.4021069, y: 0.3798799}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -323,7 +323,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 207}
   - name: Swordsman_Frame_10
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
+    pivot: {x: 0.39681658, y: 0.38062903}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -343,7 +343,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 236}
   - name: Swordsman_Frame_11
     originalName: 
-    pivot: {x: 0.33333337, y: -2.1}
+    pivot: {x: 0.41915384, y: 0.37162933}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -363,7 +363,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 466}
   - name: Swordsman_Frame_12
     originalName: 
-    pivot: {x: 0.33333337, y: -2.05}
+    pivot: {x: 0.39711857, y: 0.37049237}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -383,7 +383,7 @@ ScriptedImporter:
     uvTransform: {x: 97, y: 4}
   - name: Swordsman_Frame_13
     originalName: 
-    pivot: {x: 0.33333337, y: -1.8571428}
+    pivot: {x: 0.40355015, y: 0.37195987}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -403,7 +403,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 265}
   - name: Swordsman_Frame_14
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
+    pivot: {x: 0.41135183, y: 0.38675508}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,7 +423,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 294}
   - name: Swordsman_Frame_15
     originalName: 
-    pivot: {x: 0.38095245, y: -2.2631578}
+    pivot: {x: 0.47164264, y: 0.34298867}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -443,7 +443,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 161}
   - name: Swordsman_Frame_16
     originalName: 
-    pivot: {x: 0.36363643, y: -2.2631578}
+    pivot: {x: 0.44443303, y: 0.32962438}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -463,7 +463,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 134}
   - name: Swordsman_Frame_17
     originalName: 
-    pivot: {x: 0.24999999, y: -2}
+    pivot: {x: 0.33252797, y: 0.38061523}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -483,7 +483,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 231}
   - name: Swordsman_Frame_18
     originalName: 
-    pivot: {x: 0.24999999, y: -2}
+    pivot: {x: 0.3155355, y: 0.34992066}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -503,7 +503,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 259}
   - name: Swordsman_Frame_19
     originalName: 
-    pivot: {x: 0.5555555, y: -2}
+    pivot: {x: 0.72199506, y: 0.34992066}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -523,7 +523,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 344}
   - name: Swordsman_Frame_20
     originalName: 
-    pivot: {x: 0.29166663, y: -2}
+    pivot: {x: 0.4027621, y: 0.38061428}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -543,7 +543,7 @@ ScriptedImporter:
     uvTransform: {x: 97, y: 32}
   - name: Swordsman_Frame_21
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
+    pivot: {x: 0.41135183, y: 0.39567202}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -563,7 +563,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 323}
   - name: Swordsman_Frame_22
     originalName: 
-    pivot: {x: 0.61111116, y: -2}
+    pivot: {x: 0.7255393, y: 0.3780075}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -583,7 +583,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 372}
   - name: Swordsman_Frame_23
     originalName: 
-    pivot: {x: 0.5625, y: -1.8571428}
+    pivot: {x: 0.66782475, y: 0.37195987}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -603,7 +603,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 428}
   - name: Swordsman_Frame_24
     originalName: 
-    pivot: {x: 0.17777781, y: -1.3}
+    pivot: {x: 0.20034957, y: 0.32093468}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -623,7 +623,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 40}
   - name: Swordsman_Frame_25
     originalName: 
-    pivot: {x: 0.18181822, y: -1.4642857}
+    pivot: {x: 0.19624619, y: 0.26789528}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -643,7 +643,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 78}
   - name: Swordsman_Frame_26
     originalName: 
-    pivot: {x: 0.28571433, y: -2.2631578}
+    pivot: {x: 0.30577612, y: 0.28928256}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -663,7 +663,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 463}
   - name: Swordsman_Frame_27
     originalName: 
-    pivot: {x: 0.20408162, y: -1.7272726}
+    pivot: {x: 0.26367798, y: 0.42538035}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -683,7 +683,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 144}
   - name: Swordsman_Frame_28
     originalName: 
-    pivot: {x: 0.20408162, y: -1.8571428}
+    pivot: {x: 0.25849572, y: 0.37987918}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -703,7 +703,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 174}
   - name: Swordsman_Frame_29
     originalName: 
-    pivot: {x: 0.19999999, y: -1.7272726}
+    pivot: {x: 0.24316849, y: 0.43692294}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -723,7 +723,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 114}
   - name: Swordsman_Frame_30
     originalName: 
-    pivot: {x: 0.5555555, y: -2}
+    pivot: {x: 0.70119053, y: 0.3780075}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -743,7 +743,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 400}
   - name: Swordsman_Frame_31
     originalName: 
-    pivot: {x: 0.42857143, y: -2.3888888}
+    pivot: {x: 0.44670904, y: 0.28445435}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -763,7 +763,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 188}
   - name: Swordsman_Frame_32
     originalName: 
-    pivot: {x: 0.42857143, y: -2.3888888}
+    pivot: {x: 0.43461755, y: 0.27034676}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -783,7 +783,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 214}
   - name: Swordsman_Frame_33
     originalName: 
-    pivot: {x: 0.15094341, y: -1.3571428}
+    pivot: {x: 0.20364635, y: 0.32969305}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -803,7 +803,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Swordsman_Frame_34
     originalName: 
-    pivot: {x: 0.16666669, y: -2.05}
+    pivot: {x: 0.22485952, y: 0.3179184}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -823,7 +823,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 203}
   - name: Swordsman_Frame_35
     originalName: 
-    pivot: {x: 0.2666667, y: -2.5294118}
+    pivot: {x: 0.3540474, y: 0.2572291}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -843,7 +843,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 490}
   - name: Swordsman_Frame_36
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
+    pivot: {x: 0.40355015, y: 0.38675508}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -863,7 +863,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 352}
   - name: Swordsman_Frame_37
     originalName: 
-    pivot: {x: 0.42857143, y: -2.3888888}
+    pivot: {x: 0.44670904, y: 0.25623915}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -883,7 +883,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 240}
   - name: Swordsman_Frame_38
     originalName: 
-    pivot: {x: 0.42857143, y: -2.3888888}
+    pivot: {x: 0.44640386, y: 0.3053538}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -903,7 +903,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 266}
   - name: Swordsman_Frame_39
     originalName: 
-    pivot: {x: 0.42857143, y: -2.3888888}
+    pivot: {x: 0.4553208, y: 0.3053538}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -923,7 +923,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 292}
   - name: Swordsman_Frame_40
     originalName: 
-    pivot: {x: 0.42857143, y: -2.3888888}
+    pivot: {x: 0.43748766, y: 0.2949507}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -943,7 +943,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 318}
   - name: Swordsman_Frame_41
     originalName: 
-    pivot: {x: 0.21621625, y: -2.5294118}
+    pivot: {x: 0.28706545, y: 0.2572291}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -963,7 +963,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 413}
   - name: Swordsman_Frame_42
     originalName: 
-    pivot: {x: 0.19444442, y: -2.5294118}
+    pivot: {x: 0.2880667, y: 0.26824412}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -983,7 +983,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 438}
   - name: Swordsman_Frame_43
     originalName: 
-    pivot: {x: 0.18181822, y: -2.3333333}
+    pivot: {x: 0.23714037, y: 0.2672865}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1003,7 +1003,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 312}
   - name: Swordsman_Frame_44
     originalName: 
-    pivot: {x: 0.14893615, y: -2.5294118}
+    pivot: {x: 0.22861466, y: 0.26824233}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1023,7 +1023,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 287}
   - name: Swordsman_Frame_45
     originalName: 
-    pivot: {x: 0.19047622, y: -2.5294118}
+    pivot: {x: 0.2573492, y: 0.24621403}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1043,7 +1043,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 363}
   - name: Swordsman_Frame_46
     originalName: 
-    pivot: {x: 0.15909089, y: -2.5294118}
+    pivot: {x: 0.23569092, y: 0.2572291}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1063,7 +1063,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 338}
   - name: Swordsman_Frame_47
     originalName: 
-    pivot: {x: 0.20000003, y: -2.5294118}
+    pivot: {x: 0.2561733, y: 0.24621403}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1083,7 +1083,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 388}
   - name: Swordsman_Frame_48
     originalName: 
-    pivot: {x: 0.34615386, y: -2.3888888}
+    pivot: {x: 0.36080346, y: 0.35499027}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1103,7 +1103,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 4}
   - name: Swordsman_Frame_49
     originalName: 
-    pivot: {x: 0.34615386, y: -2.3888888}
+    pivot: {x: 0.35103723, y: 0.33382988}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1123,7 +1123,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 30}
   - name: Swordsman_Frame_50
     originalName: 
-    pivot: {x: 0.34615386, y: -2.3888888}
+    pivot: {x: 0.37057024, y: 0.34088242}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1143,7 +1143,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 56}
   - name: Swordsman_Frame_51
     originalName: 
-    pivot: {x: 0.34615386, y: -2.3888888}
+    pivot: {x: 0.36568686, y: 0.34088305}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1163,7 +1163,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 82}
   - name: Swordsman_Frame_52
     originalName: 
-    pivot: {x: 0.34615386, y: -2.3888888}
+    pivot: {x: 0.36080346, y: 0.34793642}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1183,7 +1183,7 @@ ScriptedImporter:
     uvTransform: {x: 129, y: 108}
   - name: Swordsman_Frame_53
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
+    pivot: {x: 0.41135183, y: 0.38675508}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1203,7 +1203,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 381}
   - name: Swordsman_Frame_54
     originalName: 
-    pivot: {x: 0.29629633, y: -2.6875}
+    pivot: {x: 0.37623823, y: 0.26446253}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1223,7 +1223,7 @@ ScriptedImporter:
     uvTransform: {x: 163, y: 4}
   - name: Swordsman_Frame_55
     originalName: 
-    pivot: {x: 0.14814812, y: -3.0714285}
+    pivot: {x: 0.3973784, y: 0.16620867}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1243,7 +1243,7 @@ ScriptedImporter:
     uvTransform: {x: 163, y: 28}
   - name: Swordsman_Frame_56
     originalName: 
-    pivot: {x: 0.0333333, y: -4.3}
+    pivot: {x: 0.27033693, y: 0.24538736}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:

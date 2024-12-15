@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 40
+        width: 32
+        height: 22
+      alignment: 9
+      pivot: {x: 0.7967391, y: 0.4318494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82b723b03681864e9d11217f5d4d52d
+      internalID: -1191884608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 40
+        width: 32
+        height: 22
+      alignment: 9
+      pivot: {x: 0.78632736, y: 0.41670468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744b81613011b694c877e3af77455534
+      internalID: 442286675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 40
+        width: 32
+        height: 22
+      alignment: 9
+      pivot: {x: 0.8071518, y: 0.4318494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e7bc2db98193445a2fd6de0812d502
+      internalID: -705905958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Greatsword Skeleton-Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 40
+        width: 32
+        height: 22
+      alignment: 9
+      pivot: {x: 0.79674053, y: 0.4318494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e387a16d391d14144840b6401ac7b143
+      internalID: 1879415696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Greatsword Skeleton-Hurt_0: -1191884608
+      Greatsword Skeleton-Hurt_1: 442286675
+      Greatsword Skeleton-Hurt_2: -705905958
+      Greatsword Skeleton-Hurt_3: 1879415696
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
