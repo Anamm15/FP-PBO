@@ -29,6 +29,7 @@ public class InformationUI : MonoBehaviour {
 
     void Update()
     {
+        UpdateName();
         UpdateTime();
         UpdateHealth();
         UpdateArmor();

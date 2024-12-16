@@ -8,18 +8,19 @@ public class Player : Character {
     private bool canAttack = true;
     private bool canSpecialAttack = true;
     private float specialAttackCooldown = 10f;
-    private int specialAttackDamage = 70;
+    private bool isDead = false;
     public GameObject attackPoint;
     public GameObject specialAttackPoint;
+    public MainMenu gameOver;
     public override void Start() {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         Name = PlayerPrefs.GetString("PlayerName") ?? "Player";
-        HealthPoint = 1000;
+        HealthPoint = 100;
         Armor = 5;
         AttackDamage = 20;
         AttackCooldown = 0.5f;
-        AttackRange = 2f;
+        AttackRange = 1f;
         MoveSpeed = 5f;
     }
 
@@ -36,6 +37,7 @@ public class Player : Character {
     }
 
     public void Move() {
+        if (isDead) return;
         Vector2 dir = Vector2.zero;
 
         if (Input.GetKey(KeyCode.A)) {
@@ -60,6 +62,7 @@ public class Player : Character {
     }
 
     private void HandleInput() {
+        if (isDead) return;
         if ((Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.J)) && canAttack) {
             StartCoroutine(startAttackCooldown());
         }
@@ -93,6 +96,7 @@ public class Player : Character {
 
     public override void TakeDamage(int damage)
     {
+        if (isDead) return;
         Hurt();
         int restDamage = damage - Armor;
         if (restDamage > 0) HealthPoint -= restDamage;
@@ -138,7 +142,7 @@ public class Player : Character {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(specialAttackPoint.transform.position, AttackRange);
         foreach (Collider2D enemy in hitEnemies) {
             if (enemy.CompareTag("Enemy")) {
-                enemy.GetComponent<Enemy>().TakeDamage(specialAttackDamage); 
+                enemy.GetComponent<Enemy>().TakeDamage(AttackDamage * 2); 
             }
         }
     }
@@ -152,8 +156,14 @@ public class Player : Character {
     }
 
     public override IEnumerator Die() {
+        if (isDead) yield break;
+        isDead = true;
         animator.SetTrigger("Death");
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        animator.speed = 0;
+        rb.velocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Static;
+        gameOver.GameOver();
         InformationUI.PlayerDied();
     }
 }
