@@ -19,6 +19,7 @@ public class Enemy : Character
         base.Start();
 
         try {
+        try {
             GameObject playerObject = GameObject.Find("Player"); 
             player = playerObject.transform; 
             animator = GetComponent<Animator>();
@@ -31,8 +32,10 @@ public class Enemy : Character
         }
 
         pathfinding = new AStarPathfinding(gridSize);
+        pathfinding = new AStarPathfinding(gridSize);
         pathUpdateCoroutine = StartCoroutine(UpdatePathPeriodically());
     }
+
 
 
     public override void Update() {
@@ -73,6 +76,7 @@ public class Enemy : Character
             Vector2 target = path[0];
             transform.position = Vector2.MoveTowards(transform.position, target, MoveSpeed * Time.deltaTime);
             Walk(true);
+            Walk(true);
             if (target.x < transform.position.x)
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
@@ -86,12 +90,14 @@ public class Enemy : Character
                 if (Time.time - lastAttackTime >= attackCooldown)
                 {
                     Walk(false);
+                    Walk(false);
                     Attack();
                     lastAttackTime = Time.time;
                 }
             }
             else if (Vector2.Distance(transform.position, target) < 0.1f)
             {
+                Walk(false);
                 Walk(false);
                 path.RemoveAt(0);
             }
@@ -124,13 +130,17 @@ public class Enemy : Character
 
     public override void Attack() {
         animator.SetTrigger("Attack");
+        animator.SetTrigger("Attack");
     }
 
+    public override void Walk(bool state) {
+        animator.SetBool("Walk", state);
     public override void Walk(bool state) {
         animator.SetBool("Walk", state);
     }
 
     public override void Hurt() {
+        animator.SetTrigger("Hurt");
         animator.SetTrigger("Hurt");
     }
 

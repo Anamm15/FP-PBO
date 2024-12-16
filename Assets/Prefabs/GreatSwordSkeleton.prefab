@@ -13,7 +13,10 @@ GameObject:
   - component: {fileID: 3573251093260009005}
   - component: {fileID: 9059489729002517484}
   - component: {fileID: 4830988184433682674}
+<<<<<<< HEAD
   - component: {fileID: 4377121307934032468}
+=======
+>>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9
   m_Layer: 20
   m_Name: GreatSwordSkeleton
   m_TagString: Enemy
@@ -181,6 +184,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+<<<<<<< HEAD
 --- !u!114 &4377121307934032468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,3 +202,5 @@ MonoBehaviour:
   specifiedHealthPoint: 10
   specifiedAttackDamage: 10
   specifiedArmor: 5
+=======
+>>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9

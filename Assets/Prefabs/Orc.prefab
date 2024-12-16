@@ -13,14 +13,21 @@ GameObject:
   - component: {fileID: 270293346534661231}
   - component: {fileID: 1886094643165085122}
   - component: {fileID: 4858391563442798468}
+<<<<<<< HEAD
   - component: {fileID: 1823946074564703865}
+=======
+>>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9
   m_Layer: 20
   m_Name: Orc
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9
 --- !u!4 &2526720866567127507
 Transform:
   m_ObjectHideFlags: 0
@@ -181,6 +188,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+<<<<<<< HEAD
 --- !u!114 &1823946074564703865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,3 +203,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridSize: 1
   pathUpdateInterval: 1
+=======
+>>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9

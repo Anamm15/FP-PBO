@@ -13,7 +13,10 @@ GameObject:
   - component: {fileID: 1099088176828364050}
   - component: {fileID: 6254329484583028423}
   - component: {fileID: 1075839987853821230}
+<<<<<<< HEAD
   - component: {fileID: 3609488582457952634}
+=======
+>>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9
   m_Layer: 20
   m_Name: EliteOrc
   m_TagString: Enemy
@@ -181,6 +184,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+<<<<<<< HEAD
 --- !u!114 &3609488582457952634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,3 +202,5 @@ MonoBehaviour:
   specifiedHealthPoint: 10
   specifiedAttackDamage: 7
   specifiedArmor: 3
+=======
+>>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9
