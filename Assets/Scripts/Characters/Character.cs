@@ -7,7 +7,7 @@ public abstract class Character : MonoBehaviour {
     private int _attackDamage;
     private int _armor;
     private float _attackRange;
-    private int _attackCooldown;
+    private float _attackCooldown;
     private float _moveSpeed;
     protected Animator animator;
     protected Rigidbody2D rb;
@@ -49,7 +49,7 @@ public abstract class Character : MonoBehaviour {
         set { if (value < 0) _attackRange = 0; else _attackRange = value; }
     }
 
-    public int AttackCooldown {
+    public float AttackCooldown {
         get { return _attackCooldown; }
         set { if (value < 0) _attackCooldown = 0; else _attackCooldown = value; }
     }

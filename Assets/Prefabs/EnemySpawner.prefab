@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5986638079962317509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2252711992071676736}
+  - component: {fileID: 1122202553923992342}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2252711992071676736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5986638079962317509}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8030219, y: 2.78993, z: -0.00851663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1122202553923992342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5986638079962317509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7b4fb2edd70c94cb1f98ad8a0c831f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Skeleton: {fileID: 1045633594447403172, guid: d2b9f8bbfe96b5e4bb93490de0a7a97e,
+    type: 3}
+  ArmoredSkeleton: {fileID: 2237328864003976236, guid: efd7a4cd20e814a4a88cadab9600f620,
+    type: 3}
+  GreatSwordSkeleton: {fileID: 7897484934620572215, guid: 52248aabb67ce014fac570034b204b89,
+    type: 3}
+  Orc: {fileID: 507146596393504287, guid: 8dc89be87dc1f2d4e93e7b0b598d6032, type: 3}
+  OrcRider: {fileID: 3555307877451615004, guid: 82ca2dd5f6732a7408233d59556a5584,
+    type: 3}
+  EliteOrc: {fileID: 2453780345575420951, guid: 160d8fcdfc8e7454b83b6e04f92130fd,
+    type: 3}
+  Wizard: {fileID: 7913076763513327828, guid: 3ac5558ad31ca9f43832a3b5389903a1, type: 3}
+  player: {fileID: 4106294523521722190, guid: 0ad3002d8cc666347a87e78a8dea9267, type: 3}
+  RangeSpawnDown:
+  - 11
+  - 7
+  - -8.5
+  - -8.5
+  RangeSpawnUp:
+  - 14
+  - 8
+  - 11.5
+  - -5.8
+  randomSpawnInterval: 4
+  eliteSpawnInterval: 25
+  specialSpawnInterval: 40
+  minSpawnDistance: 5

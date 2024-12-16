@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: dedf4d9a4e3e6f048bd2c22dee6918fb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wizard_27
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 713
+        width: 57
+        height: 73
+      alignment: 9
+      pivot: {x: 0.1683628, y: 0.53699315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985bc2a4537ae684babfa433cfe6fd2d
+      internalID: -963414893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_22
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 740
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d0b8b732bbaaa4fae1e490321844d7
+      internalID: -1140822661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_23
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 740
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c7ec90385a67044b44cae7045d4f96
+      internalID: 1431301365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_24
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 740
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923d68762f7aa5743994154d8ada97a1
+      internalID: -362577248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_25
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 740
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2c85eb451504844bbf8620fbd5c2ac
+      internalID: -425509259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_26
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 740
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8434c03690265cc479a7034ce5677748
+      internalID: 2085348012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_28
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 726
+        width: 54
+        height: 46
+      alignment: 9
+      pivot: {x: 0.18744574, y: 0.56604403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bba82c10433c6143bc7c63476339b24
+      internalID: -1914207844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_32
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 734
+        width: 45
+        height: 32
+      alignment: 9
+      pivot: {x: 0.21821424, y: 0.56289864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e768e567df70ad74cb1440745e7afaad
+      internalID: 1075889378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_33
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 733
+        width: 45
+        height: 32
+      alignment: 9
+      pivot: {x: 0.2137424, y: 0.594347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c77e09dea991247b7033e5223c3a22
+      internalID: -2125548157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_34
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 734
+        width: 44
+        height: 32
+      alignment: 9
+      pivot: {x: 0.21638489, y: 0.56918716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86c877fb92bddc49a5117a3f82825d7
+      internalID: -500720186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_35
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 733
+        width: 47
+        height: 32
+      alignment: 9
+      pivot: {x: 0.19166337, y: 0.60063744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b153508fddb83924e937e08eca15cfdc
+      internalID: -2092969448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_37
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 734
+        width: 45
+        height: 32
+      alignment: 9
+      pivot: {x: 0.19585232, y: 0.56289864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5b7fc96414dd14ca972bb561fb386c
+      internalID: 63677039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_38
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 735
+        width: 44
+        height: 35
+      alignment: 9
+      pivot: {x: 0.21180864, y: 0.4884975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025b3996fff10094ab7f1df51778d60e
+      internalID: -133116124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_39
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 735
+        width: 45
+        height: 35
+      alignment: 9
+      pivot: {x: 0.2003228, y: 0.48274797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa2c4f11e187984fbd6e5d3b15fc2f4
+      internalID: 696394320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wizard_40
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 732
+        width: 46
+        height: 40
+      alignment: 9
+      pivot: {x: 0.19371232, y: 0.5050308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79d4672c7a5caa4fadf0d9697978509
+      internalID: 1526056197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Wizard_0: 677089738
+      Wizard_10: 1133410067
+      Wizard_100: -1796617815
+      Wizard_101: -1630282338
+      Wizard_102: -1210968338
+      Wizard_103: -222142439
+      Wizard_104: -2059278430
+      Wizard_105: 1406281138
+      Wizard_106: 1952514122
+      Wizard_107: -1642771988
+      Wizard_108: -507882510
+      Wizard_109: -948778132
+      Wizard_11: 605196116
+      Wizard_12: 735735209
+      Wizard_13: 1278186740
+      Wizard_15: -1557652672
+      Wizard_16: -1480271097
+      Wizard_17: -377657738
+      Wizard_18: -849582627
+      Wizard_19: 2060360301
+      Wizard_20: 976181386
+      Wizard_21: -211528105
+      Wizard_22: -1140822661
+      Wizard_23: 1431301365
+      Wizard_24: -362577248
+      Wizard_25: -425509259
+      Wizard_26: 2085348012
+      Wizard_27: -963414893
+      Wizard_28: -1914207844
+      Wizard_29: 724293193
+      Wizard_3: 1770233625
+      Wizard_30: 1269392794
+      Wizard_31: 1388465019
+      Wizard_32: 1075889378
+      Wizard_33: -2125548157
+      Wizard_34: -500720186
+      Wizard_35: -2092969448
+      Wizard_36: 323359629
+      Wizard_37: 63677039
+      Wizard_38: -133116124
+      Wizard_39: 696394320
+      Wizard_4: 1502293826
+      Wizard_40: 1526056197
+      Wizard_41: 668174788
+      Wizard_42: -1534462837
+      Wizard_43: 1472419606
+      Wizard_44: -851719488
+      Wizard_45: 575744895
+      Wizard_46: 115606208
+      Wizard_47: 743961942
+      Wizard_48: -123776879
+      Wizard_49: -851948032
+      Wizard_5: 136495607
+      Wizard_50: -494257931
+      Wizard_51: 900750870
+      Wizard_52: 1831056253
+      Wizard_53: 2030412880
+      Wizard_54: 1227452098
+      Wizard_55: -1930327295
+      Wizard_56: 1136284288
+      Wizard_57: 1212245103
+      Wizard_58: 97824346
+      Wizard_59: 862722906
+      Wizard_6: -1507728617
+      Wizard_60: -1507423416
+      Wizard_61: 2006163081
+      Wizard_62: 1071865249
+      Wizard_63: -72065195
+      Wizard_64: -2107889950
+      Wizard_65: -179507272
+      Wizard_66: 2057778293
+      Wizard_67: -1049002495
+      Wizard_68: 1858048307
+      Wizard_69: -1722484909
+      Wizard_7: 1032224584
+      Wizard_70: -471452622
+      Wizard_71: -56951923
+      Wizard_72: -2057412677
+      Wizard_73: 571281132
+      Wizard_74: -512000604
+      Wizard_75: 425932496
+      Wizard_76: 2018717172
+      Wizard_77: 1740718607
+      Wizard_78: 1742155244
+      Wizard_79: 1059411390
+      Wizard_8: 1634589966
+      Wizard_80: -2024115373
+      Wizard_81: 7779032
+      Wizard_82: -333590328
+      Wizard_83: -1237887964
+      Wizard_84: 1400771307
+      Wizard_85: 1181838917
+      Wizard_86: -898102584
+      Wizard_87: 2048720088
+      Wizard_88: -1319825670
+      Wizard_89: 508371912
+      Wizard_9: -948899164
+      Wizard_90: -2069517964
+      Wizard_91: -510870993
+      Wizard_92: -503010329
+      Wizard_93: -1050839520
+      Wizard_94: -158526479
+      Wizard_95: 293837085
+      Wizard_96: -917172771
+      Wizard_97: -648699017
+      Wizard_98: -1407443938
+      Wizard_99: -183569769
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

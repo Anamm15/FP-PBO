@@ -1,13 +1,25 @@
 using UnityEngine;
+
 public class Item : MonoBehaviour
 {
-    private string _name;
-    
+    public enum ItemType { Health, Damage, Armor }
+    public ItemType itemType;
 
-    public string Name { 
-        get { return _name; }
-        set { 
-            if (!string.IsNullOrEmpty(value)) _name = value;
-         }
+    public void ApplyEffect(Player player)
+    {
+        switch (itemType)
+        {
+            case ItemType.Health:
+                player.IncreaseHealth();
+                break;
+            case ItemType.Damage:
+                player.IncreaseDamage();
+                break;
+            case ItemType.Armor:
+                player.IncreaseArmor();
+                break;
+        }
+
+        Destroy(gameObject);
     }
 }
