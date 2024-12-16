@@ -13,10 +13,7 @@ GameObject:
   - component: {fileID: 4114834559111748910}
   - component: {fileID: 6210078812591086550}
   - component: {fileID: 8971001808515954193}
-<<<<<<< HEAD
   - component: {fileID: 2371745612342741271}
-=======
->>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9
   m_Layer: 20
   m_Name: OrcRider
   m_TagString: Enemy
@@ -184,7 +181,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
-<<<<<<< HEAD
 --- !u!114 &2371745612342741271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,5 +198,3 @@ MonoBehaviour:
   specifiedHealthPoint: 15
   specifiedAttackDamage: 12
   specifiedArmor: 10
-=======
->>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9

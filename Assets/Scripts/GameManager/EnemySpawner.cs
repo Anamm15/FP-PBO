@@ -12,8 +12,8 @@ public class EnemySpawner : MonoBehaviour
     public GameObject Wizard;
     public Transform player;
 
-    public float[] RangeSpawnDown = { 11f, 7f, -8.5f, -8.5f };
-    public float[] RangeSpawnUp = { 14f, 8f, 11.5f, -5.8f };
+    public float[] RangeSpawnDown = { 9.64f, 4.5f, -3.6f, -3.6f };
+    public float[] RangeSpawnUp = { 14f, 8f, 12f, -3.6f };
 
     public float randomSpawnInterval = 4f; 
     public float eliteSpawnInterval = 25f;

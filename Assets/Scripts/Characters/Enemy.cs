@@ -17,8 +17,6 @@ public class Enemy : Character
 
     public override void Start() {
         base.Start();
-
-        try {
         try {
             GameObject playerObject = GameObject.Find("Player"); 
             player = playerObject.transform; 
@@ -133,8 +131,6 @@ public class Enemy : Character
         animator.SetTrigger("Attack");
     }
 
-    public override void Walk(bool state) {
-        animator.SetBool("Walk", state);
     public override void Walk(bool state) {
         animator.SetBool("Walk", state);
     }

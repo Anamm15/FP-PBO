@@ -13,10 +13,7 @@ GameObject:
   - component: {fileID: 5160381058153094512}
   - component: {fileID: 2634784123417943855}
   - component: {fileID: 8485788379332912455}
-<<<<<<< HEAD
   - component: {fileID: 3731459372843750051}
-=======
->>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9
   m_Layer: 20
   m_Name: Wizard
   m_TagString: Enemy
@@ -184,7 +181,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
-<<<<<<< HEAD
 --- !u!114 &3731459372843750051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,5 +195,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridSize: 1
   pathUpdateInterval: 1
-=======
->>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9

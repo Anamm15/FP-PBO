@@ -13,10 +13,7 @@ GameObject:
   - component: {fileID: 7376042693932061236}
   - component: {fileID: 2658596920728606617}
   - component: {fileID: 5015543449828695684}
-<<<<<<< HEAD
   - component: {fileID: 2261149238197983849}
-=======
->>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9
   m_Layer: 20
   m_Name: Skeleton
   m_TagString: Enemy
@@ -185,7 +182,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
-<<<<<<< HEAD
 --- !u!114 &2261149238197983849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,5 +199,3 @@ MonoBehaviour:
   specifiedHealthPoint: 10
   specifiedAttackDamage: 20
   specifiedArmor: 0
-=======
->>>>>>> 015c4ef45a6f6c407157f5e4062f4ffa0e488dd9
