@@ -13,7 +13,7 @@ public class Enemy : Character
     private float lastAttackTime;
     private AStarPathfinding pathfinding;
     private bool _ideDead;
-
+    public AudioManager audioManager;
 
     public override void Start() {
         base.Start();
@@ -22,6 +22,7 @@ public class Enemy : Character
             player = playerObject.transform; 
             animator = GetComponent<Animator>();
             rb = GetComponent<Rigidbody2D>();
+            audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
             gridSize = 1f;
             pathUpdateInterval = 1f;
             _ideDead = false;
@@ -138,6 +139,7 @@ public class Enemy : Character
     public override void Hurt() {
         animator.SetTrigger("Hurt");
         animator.SetTrigger("Hurt");
+        audioManager.playSfx(audioManager.hurtSound);
     }
 
     public override IEnumerator Die() {

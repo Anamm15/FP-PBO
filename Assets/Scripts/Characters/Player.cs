@@ -12,6 +12,7 @@ public class Player : Character {
     public GameObject attackPoint;
     public GameObject specialAttackPoint;
     public MainMenu gameOver;
+    public AudioManager audioManager;
     public override void Start() {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -39,7 +40,6 @@ public class Player : Character {
     public void Move() {
         if (isDead) return;
         Vector2 dir = Vector2.zero;
-
         if (Input.GetKey(KeyCode.A)) {
             dir.x = -1;
             transform.localScale = new Vector3(-4.15f, 4.15f, 4.15f);
@@ -55,7 +55,6 @@ public class Player : Character {
         else if (Input.GetKey(KeyCode.S)) {
             dir.y = -1;
         }
-
         dir.Normalize();
         Walk(dir.magnitude > 0);
         rb.velocity = MoveSpeed * dir;
@@ -121,7 +120,7 @@ public class Player : Character {
         }
         animator.SetTrigger($"Attack{comboStep}");
         comboTimer = 0f;
-        
+        audioManager.playSfx(audioManager.attackSound);
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.transform.position, AttackRange);
         foreach (Collider2D enemy in hitEnemies) {
             if (enemy.CompareTag("Enemy")) {
@@ -139,6 +138,7 @@ public class Player : Character {
 
     public void specialAttack() {
         animator.SetTrigger("SpecialAttack");
+        audioManager.playSfx(audioManager.specialAttackSound);
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(specialAttackPoint.transform.position, AttackRange);
         foreach (Collider2D enemy in hitEnemies) {
             if (enemy.CompareTag("Enemy")) {
@@ -153,6 +153,7 @@ public class Player : Character {
 
     public override void Hurt() {
         animator.SetTrigger("Hurt");
+        audioManager.playSfx(audioManager.hurtSound);
     }
 
     public override IEnumerator Die() {
